@@ -1,0 +1,374 @@
+* {
+    padding: 0;
+    margin: 0;
+}
+
+
+.burger {
+    margin-left: 8%;
+    margin-top: 2%;
+}
+
+.fa-burger {
+    color: #FF7629;
+    font-size: 25px;
+}
+
+nav {
+    display: flex;
+}
+
+nav ul {
+    margin-top: 0%;
+    margin-left: 2pc;
+    font-size: 33px;
+}
+
+nav li {
+    display: inline-block;
+    list-style: none;
+    margin: 10px 10px;
+}
+
+nav ul li a {
+    text-decoration: none;
+    color: black;
+    font-size: 20px;
+    position: relative;
+}
+
+nav .btn a,
+nav .btn1 a,
+nav .btn2 a {
+    text-decoration: none;
+}
+
+nav .btn a,
+nav .btn2 a {
+    color: black;
+}
+
+nav .btn1 a {
+    color: white;
+}
+
+nav .btn {
+    margin-top: 1%;
+    background: white;
+    text-align: center;
+    padding: 0px 15px;
+    border: 1px solid black;
+    border-radius: 24px;
+    cursor: pointer;
+    height: 25px;
+    margin-left: 10%;
+    padding-top: 1%;
+}
+
+nav .btn1 {
+    margin-top: 1%;
+    background: #FF7629;
+    text-align: center;
+    padding: 3px 19px;
+    border: 1px solid black;
+    border-radius: 24px;
+    cursor: pointer;
+    height: 25px;
+    margin-left: 2%;
+    padding-top: 1%;
+}
+
+.container1 {
+    display: flex;
+    justify-content: space-around;
+}
+
+img {
+    height: 50vh;
+    margin-top: 2pc;
+    margin-left: -4pc;
+    margin-bottom: 40px
+}
+
+nav .btn2 {
+    margin-top: 1%;
+    background: white;
+    text-align: center;
+    padding: 0px 15px;
+    border: 1px solid black;
+    border-radius: 24px;
+    cursor: pointer;
+    height: 25px;
+    margin-left: -2%;
+    padding-top: 1%;
+}
+
+.photo {
+    display: flex;
+    background-color: #FF7629;
+    width: 28%;
+    margin-top: 2%;
+}
+
+p {
+    margin-top: 8pc;
+    margin-left: 11pc;
+    font-size: 50px;
+}
+
+span {
+    margin-left: 11pc;
+    font-size: 3pc;
+    color: #FF7629;
+}
+
+.para {
+    font-size: 20px;
+    margin-top: 1pc;
+}
+
+.Order-items {
+    margin-top: 3%;
+    display: flex;
+    justify-content: space-evenly;
+    font-size: 30px;
+}
+
+.DOORDASH {
+    color: red;
+}
+
+.RAPPI {
+    color: orange;
+}
+
+.GRUBHUB {
+    color: orchid;
+}
+
+.order {
+    font-size: 25px;
+    margin-top: 6pc;
+    margin-left: 35pc;
+}
+
+.order-items {
+    margin-top: 3%;
+    display: flex;
+    justify-content: space-evenly;
+}
+
+.order-items>div {
+    border: 2px solid gray;
+    background-color: #f1f1f1;
+    margin: 10px;
+    padding: 20px;
+    font-size: 30px;
+}
+
+.browser {
+    display: flex;
+    justify-content: center;
+}
+
+.image {
+    height: 100vh;
+    width: 100vh;
+    margin-left: 3pc;
+}
+
+#image {
+    position: absolute;
+    left: 0px;
+    height: 90vh;
+    width: 85vh;
+    z-index: -1;
+    margin-left: 8pc;
+}
+
+.order1 {
+    display: flex;
+    font-size: 40px;
+    justify-content: center;
+}
+
+.order2 {
+    font-size: 30px;
+    margin-left: 23pc;
+    margin-top: 0pc;
+}
+
+.Order-Items {
+    display: flex;
+    margin-right: 0pc;
+    border-radius: 36px;
+    justify-content: space-evenly;
+}
+
+.me {
+    border: 2px solid black;
+    width: 44%;
+    height: 40%;
+    margin-left: 26pc;
+    margin-top: 25pc;
+    background-color: white;
+}
+
+.images {
+    height: 39vh;
+    margin-left: 2pc;
+    border-radius: 20px;
+}
+
+h5 {
+    margin-top: -2pc;
+    font-size: 30px;
+    display: flex;
+    justify-content: center;
+}
+
+.dollar {
+    color: black;
+    border-radius: 5px;
+    margin-left: 9pc;
+    margin-top: -23px;
+    position: absolute;
+    top: 142pc;
+    width: 9%;
+    font-size: 23px;
+    background-color: white;
+}
+
+.dollar1 {
+    color: black;
+    border-radius: 5px;
+    margin-left: 9pc;
+    margin-top: -23px;
+    position: absolute;
+    top: 164pc;
+    width: 9%;
+    font-size: 23px;
+    background-color: white;
+}
+
+.box1 {
+    border: 2px solid black;
+    width: 56%;
+    margin-left: 20pc;
+}
+
+.extra {
+    display: flex;
+    justify-content: center;
+    margin-top: 2pc;
+}
+
+.extra1 {
+    display: flex;
+    justify-content: center;
+    margin-top: 1pc;
+}
+
+.para3 {
+    font-size: 25px;
+    margin-top: 1pc;
+}
+
+h5 {
+    display: flex;
+    justify-content: center;
+}
+
+.face {
+    height: 20vh;
+    margin-left: 2pc;
+    border-radius: 41px;
+}
+
+h3 {
+    margin-left: 11pc;
+    margin-top: -5pc;
+}
+
+.star {
+    margin-left: 5pc;
+    margin-top: 2pc;
+    color: gold;
+}
+
+#id {
+    margin-left: 5pc;
+    margin-top: 1pc;
+}
+
+.jpg {
+    margin-left: 6pc;
+    height: 70vh;
+}
+
+.alt {
+    margin-right: 2pc;
+    margin-top: -4pc;
+    margin-bottom: 6pc;
+    height: 14pc;
+    margin-left: -1pc;
+}
+
+.me1 {
+    width: 100%;
+    height: 40%;
+    margin-left: 0pc;
+    margin-top: 3pc;
+}
+
+.me2 {
+    border: 2px solid black;
+    width: 258%;
+    height: 95%;
+    margin-left: -7pc;
+    margin-top: 1pc;
+    background-color: white;
+}
+
+.photo1 {
+    display: flex;
+    background-color: #FF7629;
+    width: 36%;
+    margin-top: 2%;
+    height: 93vh;
+}
+
+#page {
+    margin-left: 1pc;
+    color: black;
+    font-size: 30px;
+}
+
+header {
+    margin-right: 2pc;
+    margin-top: 1pc;
+}
+
+ul {
+    list-style: none;
+}
+
+header ul li {
+    margin-bottom: 7px;
+    margin-left: 1pc;
+}
+
+ul a {
+    text-decoration: none;
+    color: black;
+    font-size: 28px;
+}
+
+.me3 {
+    border: 2px solid black;
+    width: 169%;
+    height: 72%;
+    margin-left: -7pc;
+    margin-top: 3pc;
+    background-color: white;
+}
